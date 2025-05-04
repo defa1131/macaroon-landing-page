@@ -1,0 +1,26 @@
+@background-color: #eba8b1;
+
+@color-1: #821328;
+@color-2: #ffffff;
+@color-3: #71081e;
+@color-4: #d7485c;
+@color-5: #ffefef;
+@color-6: #331907;
+@color-7: #ffefef;
+
+.container() {
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.main__right() {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    z-index: -1;
+    border: 2px solid @color-3;
+    animation: pulse-1 2s ease-out infinite;
+}
